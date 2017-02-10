@@ -23,7 +23,14 @@ It also crossed my mind that this framework could be good practice for onboardin
 
 ## Usage
 
-Requires browserify installed (`npm install -g browserify`).  Also install `watchify` for live reloading.
+Requires browserify installed (`npm install -g browserify`).  Also install `watchify` and `beefy` for live reloading.
+
+```
+npm i -g browserify
+npm i -g watchify
+npm i -g beefy
+```
+
 
 To run:
 

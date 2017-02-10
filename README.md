@@ -23,16 +23,17 @@ It also crossed my mind that this framework could be good practice for onboardin
 
 ## Usage
 
-Requires browserify installed (`npm install -g browserify`).  Also install `watchify` and `beefy` for live reloading.
+### Installation
+
+Have node.js installed, then in the project folder:
 
 ```
-npm i -g browserify
-npm i -g watchify
-npm i -g beefy
+npm install
 ```
 
+### Development
 
-To run:
+To run with live-reloading via beefy:
 
 `npm start`
 

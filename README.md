@@ -33,6 +33,7 @@ Then just include `bundle.js` in an HTML file.
 
 ## Project Structure
 
+```
 ./app
 ├── components
 │   ├── download-metamask.js    <- A sample local React component, with customized style params!
@@ -45,6 +46,7 @@ Then just include `bundle.js` in an HTML file.
 ├── index.html                  <- The entry point for the app
 ├── index.html                  <- The JS init entry point for the app, unbuilt.
 └── store.js                    <- The redux store, instantiated with thunk and logging.
+```
 
 ## To Dos:
 

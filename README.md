@@ -1,6 +1,15 @@
-# React Hyperscript Beefy ES6 Boilerplate
+# The MetaMask Stack
 
-Because what good is a boilerplate when it isn't the stack that I'm kinda into at the moment?
+An composable boilerplate for writing Ethereum dapps in a similar environment to what the MetaMask developers use themselves to develop MetaMask.
+
+Forked from my older [react-hyperscript-beefy-boilerplate](https://github.com/flyswatter/react-hyperscript-beefy-es6-boilerplate), which is not Ethereum specific.
+
+## Features
+
+- Adds an instantiated [ethjs](https://github.com/ethjs/ethjs) object onto the state object for easy ethereum interaction.
+- Uses [react-hyperscript](https://www.npmjs.com/package/react-hyperscript) with [Babel](https://www.npmjs.com/package/Babel) for an Elm-like Javascript ES6 experience.
+
+## Usage
 
 To run:
 

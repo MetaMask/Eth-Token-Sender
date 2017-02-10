@@ -1,5 +1,7 @@
 # The MetaMask Stack
 
+[Live Example](https://flyswatter.github.io/MetaMaskStack/)
+
 A composable boilerplate for writing Ethereum dapps in a similar environment to what the MetaMask developers use themselves to develop MetaMask.
 
 Forked from my older [react-hyperscript-beefy-boilerplate](https://github.com/flyswatter/react-hyperscript-beefy-es6-boilerplate), which is not Ethereum specific.

@@ -26,7 +26,9 @@ window.addEventListener('load', function() {
     eth = new Eth(new Eth.HttpProvider('https://mainnet.infura.io'))
   }
 
+  window.eth = eth
   store.dispatch({ type: 'ETH_LOADED', value: eth })
+  store.dispatch({ type: 'WEB3_FOUND', value: web3Found })
 
   // Now you can start your app & access web3 freely:
   startApp()

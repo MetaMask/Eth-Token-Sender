@@ -20,6 +20,7 @@ function AppRoot () {
 AppRoot.prototype.render = function () {
   const props = this.props
   const { eth, loading, nonce, error, web3Found } = props
+  console.dir(props)
 
   return (
     h('.content', {
@@ -38,7 +39,7 @@ AppRoot.prototype.render = function () {
         }, 'Ethereum'),
       ]),
 
-      web3Found ?
+      !web3Found ?
 
         h('div', [
           h('You should get MetaMask for the full experience!'),

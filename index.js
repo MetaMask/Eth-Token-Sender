@@ -22,6 +22,7 @@ window.addEventListener('load', function() {
   } else {
 
     // Fall back to Infura:
+    web3Found = false
     eth = new Eth(new Eth.HttpProvider('https://mainnet.infura.io'))
   }
 
@@ -33,14 +34,16 @@ window.addEventListener('load', function() {
 
 const store = configureStore({
   nonce: 0,
-  web3Found,
+  web3Found: false,
   web3,
+  loading: true,
 })
 
 function startApp(){
   render(
     h(Root, {
       store,
+      className: 'root-el',
     }),
   container)
 }

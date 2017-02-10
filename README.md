@@ -34,17 +34,17 @@ Then just include `bundle.js` in an HTML file.
 ## Project Structure
 
 ```
-./app
-├── components
+./index.html                    <- The entry point for the app
+./index.js                      <- The JS init entry point for the app, unbuilt.
+./app                           <- The usually edited react views
+├── root.js                     <- The home page, which could host routing, and has full state.
+└── template.js                 <- Copy this to create views with full state access.
+├── components                  <- The components that rely on local state
 │   ├── download-metamask.js    <- A sample local React component, with customized style params!
 │   └── template.js             <- Copy this to create your own components
-├── root.js                     <- The home page, which could host routing.
-└── template.js                 <- Copy this to create views with full app state access.
 ./lib
 ├── reducers
 │   └── index.js                <- The root React Redux reducer file.
-├── index.html                  <- The entry point for the app
-├── index.html                  <- The JS init entry point for the app, unbuilt.
 └── store.js                    <- The redux store, instantiated with thunk and logging.
 ```
 

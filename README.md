@@ -50,6 +50,7 @@ Then just include `bundle.js` in an HTML file.
 
 ## To Dos:
 
--[ ] Add nice style sheet management, like SASS.
--[ ] Add unit test suite
--[ ] Add browser test suite (testem?)
+- [ ] Add nice style sheet management, like SASS.
+- [ ] Add unit test suite
+- [ ] Add browser test suite (testem?)
+

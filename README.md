@@ -1,5 +1,7 @@
 # The MetaMask Stack
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MetaMask/Eth-Token-Sender.svg)](https://greenkeeper.io/)
+
 [Live Example](https://flyswatter.github.io/MetaMaskStack/)
 
 A composable boilerplate for writing Ethereum dapps in a similar environment to what the MetaMask developers use themselves to develop MetaMask.
